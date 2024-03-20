@@ -12,3 +12,5 @@ Dica: para o password, você pode usar a prop “secureTextEntry” para omitir 
 Certifique-se de que a entrada de texto está funcionando e que os valores estão sendo armazenados em seus respectivos useState’s;
 Por fim, adicione um Button no componente “Login.tsx”, faça com que os toques neste button imprimam no terminal (console.log) os valores dos estados “username” e “password”;
 Implemente a atividade conforme descrito, hospede a solução em um repositório público do github e envie o link no moodle. Durante uma das aulas, apresente a solução ao professor. Somente serão avaliadas as soluções apresentadas em aula, o envio do link no moodle serve apenas como registro para a disciplina.
+
+https://github.com/GabrielHenriqueRibas/PDM

@@ -1,29 +1,24 @@
 import React, { useState } from "react";
 import { Button, TextInput, View } from "react-native";
 
-interface LoginProps {
-  username?: string;
-  password?: string;
-}
-
-export default function Login({ username, password }: LoginProps) {
-  const [user, setUser] = useState<string>(username || "");
-  const [key, setKey] = useState<string>(password || "");
+export default function Login() {
+  const [username, setUser] = useState<string>('');
+  const [password, setKey] = useState<string>('');
 
   const loginButton = () => {
-    console.log(user);
-    console.log(key);
+    console.log(username);
+    console.log(password);
   };
 
   return (
     <View>
       <TextInput
-        value={user}
+        value={username}
         onChangeText={setUser} 
         placeholder="Username" 
       />
       <TextInput
-        value={key}
+        value={password}
         onChangeText={setKey}
         placeholder="Password"
         secureTextEntry={true}
