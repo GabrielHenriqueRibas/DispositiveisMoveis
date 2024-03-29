@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "telas_navegacao",
     "slug": "telas_navegacao",
     "version": "1.0.0",
@@ -8,6 +9,16 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
+=======
+    "name": "hook_useState",
+    "slug": "hook_useState",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+>>>>>>> 47edf1c632196874433669b775ff64f59252738d
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,11 +30,16 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/adaptive-icon.png",
+=======
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+>>>>>>> 47edf1c632196874433669b775ff64f59252738d
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
+<<<<<<< HEAD
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
@@ -31,5 +47,9 @@
     "plugins": [
       "expo-router"
     ]
+=======
+      "favicon": "./assets/images/favicon.png"
+    }
+>>>>>>> 47edf1c632196874433669b775ff64f59252738d
   }
 }
